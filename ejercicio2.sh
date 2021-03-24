@@ -4,7 +4,7 @@ echo "Ejercicio 2, Ingrese un numero!"
 
 read number
 
-if [ $number > 10 ]
+if [ $number -gt 10 ]
 then
     echo 'Es de un solo digito'
 else
